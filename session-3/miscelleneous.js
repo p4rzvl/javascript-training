@@ -48,7 +48,7 @@ if (admin_filter.length > 0) {
 else{
     console.log(false);
 }; 
-
+console.log(Boolean(admin_filter.length)) 
 
 // ----------Task 4: The Data Grouper (Hard)----------
 // Goal: You have a list of blog posts, each with a category and title. 
