@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browser Storage Assignment</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        .container { max-width: 400px; margin: 0 auto; }
+        input, button { padding: 10px; margin: 5px 0; width: 100%; box-sizing: border-box; }
+        #output { margin-top: 20px; border: 1px solid #ccc; padding: 10px; background-color: #f9f9f9; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Storage Demo</h2>
+        
+        <input type="text" id="nameInput" placeholder="Enter your name">
+        
+
+        <button onclick="saveToStorage()">Save</button>
+        <button onclick="loadFromStorage()">Load</button>
+
+        <div id="output">
+            <p><strong>Results will appear here...</strong></p>
+        </div>
+    </div>
+
+    <script src="assignment1.js"></script>
+
+</body>
+</html>
