@@ -27,9 +27,3 @@ processPay(PayState.SUCCESS)
 
 // Why enums are better than magic strings?
 // Enums make our code complie safe as we cannot pass aribitrary string as argument
-
-
-const test = "JavaScript For Beginners"
-.toLocaleUpperCase()
-.split(" ")
-.join("-")
